@@ -99,7 +99,7 @@ to finish before running the next:
 ```bash
 python src/high_value_customer.py
 python src/train_model.py
-streamlit run app.py
+streamlit run app.py --server.port=8501 --server.fileWatcherType none
 ```
 
 After Streamlit starts, open the local URL printed in the terminal (usually
